@@ -66,7 +66,7 @@ Hub需接上部的USB3.0
 +USBPort.kext  
 -USBInjectAll.kext  
 
-## V2.3
+## V2.3  2019.3.15
 声卡platform-id修改为15，外放OK麦克风OK耳机OK  
 耳机麦克风Failed  
 
@@ -81,7 +81,7 @@ Hub需接上部的USB3.0
 
 
 ## V3.0  
-从Github上另一个EFI中学习了一下，做了很多调整。
+从Github上另一个EFI中学习了一下，做了很多调整。如电量显示等。
 
 ## V3.1. 19.8.6 **亮度记忆 - 修复开机自动恢复最大亮度**
 删除 drivers64UEFI 下的 EmuVariableUefi-64.efi 重启两次即可保存亮度 --失败  
@@ -134,7 +134,7 @@ RnDIS update --成功
 ## V3.6 19.8.21  
 尝试解决偶现的由VoodooPS2Controller引发的Kernel Panic  
 --Update VoodooPS2Control ->2.0.2[Github]
-
+--实际未能修复，撤销此版本
 
 # 鸣谢
 * 黑果小兵 blog.daliansky.net
